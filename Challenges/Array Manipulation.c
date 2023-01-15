@@ -12,14 +12,6 @@
 
 int parse_int(char*);
 
-/*
- * Complete the 'arrayManipulation' function below.
- *
- * The function is expected to return a LONG_INTEGER.
- * The function accepts following parameters:
- *  1. INTEGER n
- *  2. 2D_INTEGER_ARRAY queries
- */
 
 long A[10000009]={0},CF[10000009+1]={0};
 int main()
