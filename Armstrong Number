@@ -1,8 +1,9 @@
 #include<stdio.h>  
+
  int main()    
 {    
 int n,r,sum=0,temp;    
-printf("enter the number=");    
+printf("Enter the number=");    
 scanf("%d",&n);    
 temp=n;    
 while(n>0)    
@@ -12,8 +13,8 @@ sum=sum+(r*r*r);
 n=n/10;    
 }    
 if(temp==sum)    
-printf("armstrong  number ");    
+printf("Armstrong Number ");    
 else    
-printf("not armstrong number");    
+printf("not Armstrong Number");    
 return 0;  
 } 
